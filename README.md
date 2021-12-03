@@ -21,8 +21,8 @@ grpc 웹페이지에서 제공하는 `Helloworld` 예제를 도커 없이 맛보
 ## grpcurl - 파워쉘
 * `grpcurl/request.md`
 ```powershell
-$params = @{ "name" = "doe" }
-$params | ConvertTo-Json -Compress | ./grpcurl -plaintext -d '@' -proto ../proto/hello.proto localhost:50051 hello.Greeter/SayHello
+prompt> $params = @{ "name" = "doe" }
+prompt> $params | ConvertTo-Json -Compress | ./grpcurl -plaintext -d '@' -proto ../proto/hello.proto localhost:50051 hello.Greeter/SayHello
 ```
 
 ## vscode용 gRPC 확장
