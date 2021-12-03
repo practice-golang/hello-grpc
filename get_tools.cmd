@@ -26,3 +26,4 @@ rd bin\dist /q /s
 @REM grpcurl
 curl.exe -Lo grpcurl.zip https://github.com/fullstorydev/grpcurl/releases/download/v1.8.5/grpcurl_1.8.5_windows_x86_64.zip
 unzip.exe -oq grpcurl.zip -d grpcurl
+del grpcurl.zip /q /s
