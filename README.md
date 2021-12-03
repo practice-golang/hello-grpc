@@ -36,10 +36,6 @@ prompt> $params | ConvertTo-Json -Compress | ./grpcurl -plaintext -d '@' -proto 
 * [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3)
 
 
-## js, css content type 문제
-* https://stackoverflow.com/questions/28899675/include-js-file-in-go-template/28899786#28899786
-
-
 ## Certificates 생성 - 평문이라서 필요 없음
 * localhost에서 TLS 사용 목적. keygen은 `ssl-keygen.zip` 압축을 먼저 해제
 * 아래와 같이 인증 파일 생성
