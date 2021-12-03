@@ -28,7 +28,6 @@ prompt> $params | ConvertTo-Json -Compress | ./grpcurl -plaintext -d '@' -proto 
 ```
 
 ## vscode용 gRPC 확장
-* [gRPC Client](https://marketplace.visualstudio.com/items?itemName=pashkatrick.grpc-client)
 * [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3)
 
 
