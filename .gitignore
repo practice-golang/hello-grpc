@@ -1,0 +1,13 @@
+bin/
+dist/
+web/static/main.js
+node_modules
+
+hello.pb.go
+hello_grpc.pb.go
+hello_pb.js
+hello_grpc_web_pb.js
+hello.protoset
+
+grpcurl/**
+!grpcurl/request.md

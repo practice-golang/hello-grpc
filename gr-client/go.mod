@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	google.golang.org/grpc v1.42.0
-	hello v1.0.0
+	hello v0.0.0-00010101000000-000000000000
 )
 
 require (
