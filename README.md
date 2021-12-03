@@ -1,6 +1,8 @@
 # gRPC 찍먹
 grpc 웹페이지에서 제공하는 `Helloworld` 예제를 도커 없이 맛보기
 
+![스샷](스샷.png)
+
 ## 요약
 * 빌드 및 실행: `all.cmd` 실행 -> `run.cmd` 실행
 * 정리: `clean.cmd` 실행
